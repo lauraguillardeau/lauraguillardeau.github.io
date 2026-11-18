@@ -1,3 +1,9 @@
 body{
     background:black;
+    color: aliceblue;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+p{
+    text-align: center;
 }
