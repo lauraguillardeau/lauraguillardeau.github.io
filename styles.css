@@ -1,9 +1,93 @@
 body{
-    background:black;
-    color: aliceblue;
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: 'rubik', Helvetica, Arial, sans-serif;
+}
+body{
+    background:#f0fdeb;
+    color: #3B1607;
+    font-size: larger;
+    font-weight: 100;
+    font-optical-sizing: auto;
+    max-width: 2560px;
+    margin:0 auto;
+    
+}
+
+img{
+    width: 100%;
+    height: auto;
+    display: block;
 }
 
 p{
     text-align: center;
+
+}
+
+h1{
+    font-size: larger;
+    text-align: left;
+}
+
+h2{
+    font-family: 'avara';
+    font-size: xx-large;
+    font-style: italic;
+    text-transform: lowercase;
+}
+
+span{
+    color: #EB4400;
+}
+
+p span{
+    color: #EB4400;
+}
+
+.alert{
+    text-align: center;
+}
+
+header{
+    display: grid;
+    grid-template-columns: auto 200px auto;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    z-index: 999;
+    top: 0%;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    padding: 5px;
+}
+ .propos{
+    text-decoration: none;
+    color:#dd1d1d;
+    padding: 6px;
+    transition: all 0.3s ease; 
+    border: 1px solid #dd1d1d;
+    }
+/*.header a:not(.no-block){
+    text-decoration: none;
+    color: currentColor;
+    background: white;
+    padding-bottom: 1px;
+    display: inline-block;
+    padding: 8px 12px;   
+    background: white;   
+    border-radius: 20px;
+}
+*/
+.logo-rotate {
+    transition: transform 2s ease;
+    display: inline-block; /* important pour éviter les bugs */
+}
+
+.logo-rotate:hover {
+    transform: rotate(380deg);
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+    padding: 24px;
 }
