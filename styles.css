@@ -12,7 +12,7 @@ body {
     max-height: 100px;
     /*margin: 8px;*/
     scrollbar-color: red;
-
+    box-sizing: border-box
 }
 
 body span {
@@ -589,7 +589,37 @@ footer {
     font-style: italic;
 }
 
-/*/HOMEPAGE FLEXBOXES/*/
+/*/HOMEPAGE FLICKITY/*/
+/* external css: flickity.css */
+
+/* * { box-sizing: border-box; }
+
+body { font-family: sans-serif; }
+
+.carousel {
+  background: #EEE;
+}
+
+.carousel-cell {
+  width: 66%;
+  height: 200px;
+  margin-right: 10px;
+  background: #8C8;
+  border-radius: 5px;
+  counter-increment: carousel-cell;
+}
+
+.carousel-cell:before {
+  display: block;
+  text-align: center;
+  content: counter(carousel-cell);
+  line-height: 200px;
+  font-size: 80px;
+  color: white;
+} */
+
+
+/*HOMEPAGE FLEXBOXES
 
 ul {
     width: 100vw;
@@ -597,6 +627,7 @@ ul {
     padding: 8px;
     display: flex;
     gap: 4vw;
+    margin: 0;
 }
 
 li {
@@ -608,7 +639,7 @@ li:nth-child(even) {
     background-color: none;
 }
 
-/*scroll snapping*/
+/*scroll snapping
 ul {
     overflow-x: scroll;
     scroll-snap-type: x mandatory;
@@ -618,12 +649,12 @@ li {
     scroll-snap-align: center;
 }
 
-/*scroll button*/
+/*scroll button
 ul::scroll-button(*) {
     border: 0;
     font-size: 2rem;
     background: none;
-    color: black;
+    color: #eb4400;
     opacity: 0.7;
     cursor: pointer;
 }
@@ -669,7 +700,7 @@ ul::scroll-button(right) {
     bottom: calc(anchor(top) + 13px);
 }
 
-/*scroll markers*/
+/*scroll markers
 ul {
     scroll-marker-group: after;
 }
@@ -690,16 +721,16 @@ li::scroll-marker {
     width: 16px;
     height: 16px;
     background-color: transparent;
-    border: 2px solid black;
+    border: 2px solid #3B1607;
     border-radius: 50%;
     overflow: hidden;
     text-indent: 16px;
 }
 
 li::scroll-marker:target-current {
-    background-color: black;
+    background-color: #3B1607;
 }
-
+*/
 
 
 /* responsive */

@@ -7,6 +7,7 @@
     <title>Laura Guillardeau | Home</title>
     <link rel="shortcut icon" href="img/logotype/lasna_logorange.svg">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="flickity.css" media="screen">
 </head>
 <body>
     <header class="header">
@@ -21,31 +22,14 @@
         </div>
     </header> 
     <main>
-        <ul>
-            <li data-accName="Item 1">
-                <img src="img/gangsters/gangsters_mockup_mesrine.jpg" alt="mockup gangsters mesrine" width="100%">
-                <h2>Page 3</h2>
-            </li>
-            <li data-accName="Item 2">
-                <img src="img/eart/eart_mockup_hand.jpg" alt="random" width="100%">
-                <h2>Page 2</h2>
-            </li>
-            <li data-accName="Item 3">
-                <img src="img/ipomee/ipomee_couv_double2.jpg" alt="random" width="100%">
-                <h2>Page 3</h2>
-            </li>
-            <li data-accName="Item 4">
-                <h2>Page 4</h2>
-            </li>
-            <li data-accName="Item 5">
-                <img src="img/araneae/araneae_back_full.jpg" alt="random" width="100%">
-                <h2>Page 1</h2>
-            </li>
-            <li data-accName="Item 6">
-                <img src="img/tabasco/tabasco_minia2.jpg" alt="random" width="100%">
-                <h2>Page 2</h2>
-            </li>
-        </ul>
+            <div class="main-carousel"
+            data-flickity='{ "wrapAround": true }'>
+                <div class="carousel-cell"><img src="img/gangsters/gangsters_main.jpg" alt="mockup gangsters mesrine" width="1652" height="929" ></div>
+                <div class="carousel-cell"><img src="img/eart/eart_main.jpg" alt="random" width="2000" height="1125" ></div>
+                <div class="carousel-cell"><img src="img/ipomee/ipomee_main.jpg" alt="random" width="1938" height="1090" ></div>
+                <div class="carousel-cell"><img src="img/araneae/araneae_main.jpg" alt="random" width="1499" height="843" ></div>
+                <div class="carousel-cell"><img src="img/tabasco/tabasco_main.jpg" alt="random" width="2000" height="1125" ></div>
+            </div>
     </main>
     <footer class="footer">
         <p><span>&copy; 2026 Portfolio Laura Guillardeau All Rights Reserved | Hand-coded website HTML-CSS | Fonts : Rubik by Hubert & Fischer, Avara by Raphaël Bastide</span></p>
@@ -53,6 +37,6 @@
             <a class="button" href="mailto:laura.guillardeau@gmail.com">contact me</a>
         </div>
     </footer>
-    <script src="/color.js"></script>
+    <script src="flickity.pkgd.min.js"></script>
 </body>
 </html>
