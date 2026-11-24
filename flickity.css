@@ -129,11 +129,22 @@ https://flickity.metafizzy.co
   margin: 0 8px;
   background: #eb4400;
   border-radius: 50%;
-  opacity: 0.25;
+  opacity: 0.50;
   cursor: pointer;
 }
 
 .flickity-page-dots .dot.is-selected {
   background: #75e717;
   opacity: 1;
+}
+
+@media (max-width: 888px) {
+    .outer-wrapper {
+        height: 100vh !important;
+    }
+
+    .wrapper {
+        width: calc(400vw + (100vh - 100vw)) !important;
+    }
+
 }
