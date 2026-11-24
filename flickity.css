@@ -45,13 +45,13 @@ https://flickity.metafizzy.co
 
 .flickity-button {
   position: absolute;
-  background: hsla(0, 0%, 100%, 0.75);
+  background: #eb4400;
   border: none;
-  color: #333;
+  color: #f5fdf1;
 }
 
 .flickity-button:hover {
-  background: white;
+  background: #75e717;
   cursor: pointer;
 }
 
@@ -114,6 +114,7 @@ https://flickity.metafizzy.co
   bottom: -25px;
   padding: 0;
   margin: 0;
+  margin-bottom: 40px;
   list-style: none;
   text-align: center;
   line-height: 1;
@@ -123,15 +124,16 @@ https://flickity.metafizzy.co
 
 .flickity-page-dots .dot {
   display: inline-block;
-  width: 10px;
-  height: 10px;
+  width: 30px;
+  height: 30px;
   margin: 0 8px;
-  background: #333;
+  background: #eb4400;
   border-radius: 50%;
   opacity: 0.25;
   cursor: pointer;
 }
 
 .flickity-page-dots .dot.is-selected {
+  background: #75e717;
   opacity: 1;
 }

@@ -111,6 +111,22 @@ h3 {
 h3:hover {
     transform: rotate(-10deg);
 }
+.gangsters {
+    color: #d1b069;
+}
+.eart {
+    color: #ce2987;
+}
+.ipomee {
+    color: #445d2a;
+}
+.araneae {
+    color: #953735;
+}
+.tabasco {
+    color: #6c4c94;
+}
+
 
 h4 {
     font-family: 'rubik';
@@ -565,6 +581,10 @@ footer {
     border-radius: 30px;
     transition: 0.3s background-color;
 }
+.about {
+    background-color: #EB4400;
+    color: #f5fdf1;
+}
 
 .button:hover {
     background-color: #EB4400;
@@ -581,6 +601,10 @@ footer {
     border: solid 1px #1C388C;
     border-radius: 30px;
     transition: 0.3s background-color;
+}
+.overview {
+    background-color: #1C388C;
+    color: #f5fdf1;
 }
 
 .button-overview:hover {
